@@ -24,7 +24,6 @@ header {
 
 .language a {
     display: inline;
-    /* padding: 15px; */
     color: black;
     text-decoration: none;
     font-size: 20px;
@@ -32,17 +31,6 @@ header {
     margin-left: 20px;
 }
 
-/* .language a:after {
-    content: "";
-    width: 90%;
-    height: 2px;
-    display: block;
-    position: absolute;
-    background-color: black;
-    top: 25px;
-    left: 50%;
-    transform: translate(-50%,0);
-} */
 nav {
     position: absolute;
     width: 100%;
@@ -78,19 +66,7 @@ nav  a {
 nav div:not(:first-child) {
     margin-left: 10px;
 }
-/* nav div a:after {
-    content: "";
-    width: 75%;
-    height: 2px;
-    justify-self: center;
-    display: block;
-    position: absolute;
-    background-color: black;
-    top: 35px;
-    left: 50%;
 
-    transform: translate(-50%,0);
-} */
 a:hover {
     color: salmon;
     filter: contrast(50%);
@@ -181,7 +157,7 @@ footer p a {
     nav div {
     top: 7%;
     font-size: 12px;
-    /* padding: 12.5px 3px; */
+    padding: 12.5px 8px;
     display: inline;
 }
     .about {
@@ -206,7 +182,9 @@ footer p a {
     .support_one, .support_two {
 
         width: 100%;
-        /* padding: 20px; */
         text-align: justify;
+    }
+    #about {
+        text-align: center;
     }
 }

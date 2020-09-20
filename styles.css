@@ -146,7 +146,7 @@ main {
     width: 80%;
 }
 
-.support_bank, .support_paypal {
+.support_one, .support_two {
 
     width: 40%;
     padding-right: 40px;
@@ -154,7 +154,9 @@ main {
     text-align: justify;
 
 }
-
+.row h2 {
+    text-align: center;
+}
 footer {
     display: flex;
     flex-direction: column;
@@ -172,13 +174,14 @@ footer p a {
 }
 @media screen and (max-width: 600px) {
     h1 {
-        font-size: 2rem;
+        font-size: 1.5rem;
         top: 25%;
     }
 
     nav div {
-    font-size: 20px;
-    padding: 12.5px 8px;
+    top: 7%;
+    font-size: 12px;
+    /* padding: 12.5px 3px; */
     display: inline;
 }
     .about {
@@ -200,7 +203,7 @@ footer p a {
         justify-content: center;
 
     }
-    .support_bank, .support_paypal {
+    .support_one, .support_two {
 
         width: 100%;
         /* padding: 20px; */
